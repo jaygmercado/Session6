@@ -113,3 +113,42 @@ footer {
 footer span {
   margin: 0 0.5rem;
 }
+
+/* If the browser window is 425px or smaller, these rules will be applied */
+@media only screen and (max-width: 425px) {
+  #nav-bar {
+    display: block;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav {
+    font-size: 10px;
+  }
+
+  #core-values {
+    display: block;
+    padding: 1rem 10% 1rem 10%;
+  }
+
+  #core-values > section {
+    margin: 10px 0px;
+  }
+
+  #pre-footer {
+    display: block;
+    text-align: center;
+  }
+
+  #pre-footer article {
+    margin: 1rem 0;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+}
